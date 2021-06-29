@@ -26,6 +26,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Path
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.plcoding.meditationuiyoutube.BottomMenuContent
@@ -33,6 +34,7 @@ import com.plcoding.meditationuiyoutube.Feature
 import com.plcoding.meditationuiyoutube.R
 import com.plcoding.meditationuiyoutube.standardQuadFromTo
 import com.plcoding.meditationuiyoutube.ui.theme.*
+
 
 @ExperimentalFoundationApi
 @Composable
@@ -162,7 +164,7 @@ fun BottomMenuItem(
 
 @Composable
 fun GreetingSection(
-    name: String = "Philipp"
+    name: String = "Vishesh"
 ) {
     Row(
         horizontalArrangement = Arrangement.SpaceBetween,
